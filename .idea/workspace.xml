@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a32d0f13-5bf3-4c86-a950-96af80c22a17" name="Changes" comment="Establishing class structure">
-      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/CFAable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/EBITDA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/Financing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/IncomeStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/Mortgage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/market/MarketSubdivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/market/PropertyCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/AcquisitionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/PropertyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/RentalProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/SaleProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/StructureType.java" afterDir="false" />
+    <list default="true" id="a32d0f13-5bf3-4c86-a950-96af80c22a17" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/src/FileObjectConversion/Fileable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/earthMapping/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/earthMapping/Coordinate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/earthMapping/rectangularMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/earthMapping/RectangularMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/financialAnalysis/cashflowAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/financialAnalysis/CashFlowAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/financialAnalysis/mortgageAnalysis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/property/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/property/House.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/property/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/property/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/financialAnalysis/Financing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/financialAnalysis/Financing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/financialAnalysis/IncomeStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/financialAnalysis/IncomeStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/financialAnalysis/Mortgage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/financialAnalysis/Mortgage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/market/MarketEvaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/MarketEvaluation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,11 +29,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -65,20 +51,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698178607178</updated>
       <workItem from="1698178608350" duration="17086000" />
+      <workItem from="1698262267927" duration="4140000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1698179502282</created>
@@ -103,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698181206351</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Establishing class structure">
+      <created>1698262416182</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698262416182</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test">
+      <created>1698262855988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698262855988</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,9 +122,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test" />
     <MESSAGE value="Initializing classes" />
     <MESSAGE value="Establishing class structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Establishing class structure" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>

@@ -3,13 +3,13 @@ package financialAnalysis;
 import java.util.ArrayList;
 
 public class Mortgage {
-    private float interest;
+    private double interest;
     private double percentDownPayment;
     private int terms;
     private int months;
-    private float monthlyPayment;
+    private double monthlyPayment;
     private ArrayList<PaymentBreakdown> monthlyPaymentBreakdown;
-    public Mortgage (float interest, double percentDownPayment, int terms) {
+    public Mortgage (double interest, double percentDownPayment, int terms) {
         this.interest = interest;
         this.percentDownPayment = percentDownPayment;
         this.terms = terms;
@@ -18,9 +18,9 @@ public class Mortgage {
     }
 
     private class PaymentBreakdown {
-        public float interest;
-        public float equityPaydown;
-        public float obligation;
+        public double interest;
+        public double equityPaydown;
+        public double obligation;
     }
 
 
