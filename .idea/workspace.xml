@@ -4,17 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a32d0f13-5bf3-4c86-a950-96af80c22a17" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/earthMapping/Coordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/earthMapping/rectangularMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/cashflowAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/mortgageAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/Property.java" afterDir="false" />
+    <list default="true" id="a32d0f13-5bf3-4c86-a950-96af80c22a17" name="Changes" comment="Establishing class structure">
+      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/CFAable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/EBITDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/Financing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/IncomeStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/financialAnalysis/Mortgage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/market/MarketSubdivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/market/PropertyCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/property/AcquisitionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/property/PropertyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/property/RentalProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/property/SaleProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/property/StructureType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Property.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/earthMapping/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/earthMapping/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/earthMapping/rectangularMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/earthMapping/RectangularMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/financialAnalysis/cashflowAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/financialAnalysis/CashFlowAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/financialAnalysis/mortgageAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/property/Property.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -76,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698178607178</updated>
-      <workItem from="1698178608350" duration="2485000" />
+      <workItem from="1698178608350" duration="17086000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1698179502282</created>
@@ -85,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698179502282</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initializing classes">
+      <created>1698181206351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698181206351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +122,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Initializing classes" />
+    <MESSAGE value="Establishing class structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Establishing class structure" />
   </component>
 </project>

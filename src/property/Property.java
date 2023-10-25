@@ -1,8 +1,11 @@
 package property;
 
-public abstract class Property {
-    float price;
-    float area;
+import earthMapping.Coordinate;
 
+public abstract class Property {
+    private float price;
+    private float floorArea;
+    private Coordinate coordinate;
+    private PropertyType propertyType;
 
 }

@@ -5,12 +5,16 @@ public class Coordinate {
     Describes a
      */
     final static float earthRadius = 6371; // in km
-    private float latitude;
-    private float longitude;
-    public float getLatitude() {
+    private double latitude;
+    private double longitude;
+    public double getLatitude() {
         return latitude;
     }
-    public float getLongitude() {
+    public double getLongitude() {
         return longitude;
+    }
+
+    public float getDistance(Coordinate c) {
+        return 0;
     }
 }
