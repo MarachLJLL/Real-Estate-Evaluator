@@ -1,4 +1,4 @@
-package earthMapping;
+package main.earthMapping;
 
 public class RectangularMap {
     int xUnits;

@@ -1,6 +1,6 @@
-package property;
+package main.property;
 
-import earthMapping.Coordinate;
+import main.earthMapping.Coordinate;
 
 public abstract class Property {
     private float price;

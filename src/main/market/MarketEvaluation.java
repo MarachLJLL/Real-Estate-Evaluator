@@ -1,10 +1,8 @@
-package market;
+package main.market;
 
-import financialAnalysis.CashFlowAnalysis;
-import financialAnalysis.Mortgage;
+import main.financialAnalysis.CashFlowAnalysis;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Iterator;
 
 public class MarketEvaluation implements Iterable<CashFlowAnalysis> {

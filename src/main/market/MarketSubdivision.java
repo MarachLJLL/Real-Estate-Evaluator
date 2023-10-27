@@ -1,4 +1,4 @@
-package market;
+package main.market;
 
 import java.util.ArrayList;
 

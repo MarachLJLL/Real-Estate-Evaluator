@@ -1,6 +1,4 @@
-package FileObjectConversion;
-
-import java.util.Iterator;
+package main.FileObjectConversion;
 
 public interface Fileable<E> {
     public static Object loadFile(String filepath) {

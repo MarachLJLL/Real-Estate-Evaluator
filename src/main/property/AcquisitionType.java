@@ -1,4 +1,4 @@
-package property;
+package main.property;
 
 public enum AcquisitionType {
     RENT,

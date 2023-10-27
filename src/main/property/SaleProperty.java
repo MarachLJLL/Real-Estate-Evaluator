@@ -1,4 +1,5 @@
-package property;
+package main.property;
 
 public class SaleProperty {
+
 }

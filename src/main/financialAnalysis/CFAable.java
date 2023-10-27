@@ -1,4 +1,4 @@
-package financialAnalysis;
+package main.financialAnalysis;
 
 public interface CFAable {
     /*

@@ -1,7 +1,7 @@
-package market;
+package main.market;
 
-import property.Property;
-import property.PropertyType;
+import main.property.Property;
+import main.property.PropertyType;
 
 import java.util.ArrayList;
 import java.util.Iterator;
