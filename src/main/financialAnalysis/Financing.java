@@ -8,7 +8,7 @@ public class Financing {
     private double interest;
     private int terms; // years
     private int numberOfPayments;
-    private double totalMonthlyPayment;
+    private double monthlyPayment;
     private ArrayList<MortgagePayment> monthlyPaymentBreakdown;
     private static final int MONTHSPERYEAR = 12;
 
@@ -21,14 +21,17 @@ public class Financing {
         calcPmt();
         fillMonthlyPaymentBreakdown();
     }
+    public double getMonthlyPayment() {
+        return  monthlyPayment;
+    }
 
-    public void calcPmt() { // monthly payments for mortgage
+    private void calcPmt() { // monthly payments for mortgage
         double percentFix = 1;
         if (interest > 1) percentFix = 100;
         double p = principal;
         double r = interest / MONTHSPERYEAR / percentFix; // interest rate per period
         double n = terms * MONTHSPERYEAR; // number of payment periods
-        totalMonthlyPayment = p * r / (1 - Math.pow(1 + r, -n));
+        monthlyPayment = p * r / (1 - Math.pow(1 + r, -n));
     }
     private void fillMonthlyPaymentBreakdown() {
         double percentFix = 1;
@@ -39,7 +42,7 @@ public class Financing {
         double equityPaydown;
         for (int i = 0; i < numberOfPayments; i++) {
             interestPayment = remainingPrincipal * monthlyInterest;
-            equityPaydown = totalMonthlyPayment - interestPayment;
+            equityPaydown = monthlyPayment - interestPayment;
             remainingPrincipal -= equityPaydown;
             interestPayment = Math.round(interestPayment);
             equityPaydown = Math.round(equityPaydown);

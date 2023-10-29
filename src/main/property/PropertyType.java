@@ -19,6 +19,15 @@ public class PropertyType {
         collectionPT.put(desiredPT, desiredPT);
         return desiredPT;
     }
+
+    public AcquisitionType getAcquisitionType() {
+        return acquisitionType;
+    }
+
+    public StructureType getStructureType() {
+        return structureType;
+    }
+
     public boolean equals(PropertyType p) {
         return acquisitionType == p.acquisitionType && structureType == p.structureType;
     }

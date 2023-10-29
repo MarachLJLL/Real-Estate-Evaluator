@@ -1,4 +1,4 @@
-package main.FileObjectConversion;
+package main.fileObjectConversion;
 
 public interface Fileable<E> {
     public static Object loadFile(String filepath) {
