@@ -1,8 +1,8 @@
-package main.earthMapping;
+package main.SpaceMapping;
 
-public class Coordinate {
+public class EarthCoordinate {
     /*
-    Describes a
+    Describes an earth coordinate
      */
     final static double earthRadius = 6371; // in km
     /*
@@ -10,7 +10,7 @@ public class Coordinate {
      */
     private double latitude;
     private double longitude;
-    public Coordinate(double latitude, double longitude) {
+    public EarthCoordinate(double latitude, double longitude) {
         this.latitude = latitude;
         this.longitude = longitude;
     }
@@ -21,7 +21,7 @@ public class Coordinate {
         return longitude;
     }
 
-    public double getDistance(Coordinate c) {
+    public double getDistance(EarthCoordinate c) {
         return 0;
     }
 }

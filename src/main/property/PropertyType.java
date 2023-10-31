@@ -29,7 +29,7 @@ public class PropertyType {
     public StructureType getStructureType() {
         return structureType;
     }
-
+    /*
     @Override
     public boolean equals(Object obj) {
         PropertyType p;
@@ -40,8 +40,7 @@ public class PropertyType {
     }
 
     @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
-    // override hashcode
+    public int hashCode() {}
+
+     */
 }

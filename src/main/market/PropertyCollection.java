@@ -4,10 +4,11 @@ import main.property.Property;
 import main.property.PropertyType;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
 
 public class PropertyCollection implements Iterable<Property> {
-    ArrayList<Property> properties;
+    Collection<Property> properties;
     PropertyType propertyType;
     public PropertyCollection() {
         properties = new ArrayList<Property>();

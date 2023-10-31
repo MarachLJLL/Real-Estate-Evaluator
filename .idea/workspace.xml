@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a32d0f13-5bf3-4c86-a950-96af80c22a17" name="Changes" comment="Implemented PropertyType as flyweight class and included optional fields for the property class">
-      <change afterPath="$PROJECT_DIR$/src/test/property/PropertyTypeTest.java" afterDir="false" />
+    <list default="true" id="a32d0f13-5bf3-4c86-a950-96af80c22a17" name="Changes" comment="Completed and tested PropertyType flyweight implementation with the use of strings associated with each PropertyType. This could be made more efficient with the override of equals and hashCode in order to reduce the memory profile (much less than strings, but really not very impactful)">
+      <change afterPath="$PROJECT_DIR$/src/main/SpaceMapping/CartesianDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/SpaceMapping/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/SpaceMapping/DistanceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/SpaceMapping/HaversineDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/SpaceMapping/RectangularMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proximity/AdjacencyListPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proximity/LinkedListPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proximity/ProximityCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/earthMapping/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SpaceMapping/EarthCoordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/earthMapping/RectangularMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/market/PropertyCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/market/PropertyCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/property/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/property/Property.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/property/PropertyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/property/PropertyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/property/StructureType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/property/StructureType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/financialAnalysis/FinancingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/financialAnalysis/FinancingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -116,7 +127,9 @@
       <workItem from="1698262267927" duration="16749000" />
       <workItem from="1698543997006" duration="3314000" />
       <workItem from="1698602411440" duration="5615000" />
-      <workItem from="1698700148923" duration="1787000" />
+      <workItem from="1698700148923" duration="4269000" />
+      <workItem from="1698760819179" duration="4995000" />
+      <workItem from="1698780009304" duration="1899000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1698179502282</created>
@@ -167,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698553465484</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Completed and tested PropertyType flyweight implementation with the use of strings associated with each PropertyType. This could be made more efficient with the override of equals and hashCode in order to reduce the memory profile (much less than strings, but really not very impactful)">
+      <created>1698706588917</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698706588918</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +211,7 @@
     <MESSAGE value="PMT calculations for cash flow calculations" />
     <MESSAGE value="Completed MortgageAnalysis class and adjusted financialAnalysis" />
     <MESSAGE value="Implemented PropertyType as flyweight class and included optional fields for the property class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented PropertyType as flyweight class and included optional fields for the property class" />
+    <MESSAGE value="Completed and tested PropertyType flyweight implementation with the use of strings associated with each PropertyType. This could be made more efficient with the override of equals and hashCode in order to reduce the memory profile (much less than strings, but really not very impactful)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed and tested PropertyType flyweight implementation with the use of strings associated with each PropertyType. This could be made more efficient with the override of equals and hashCode in order to reduce the memory profile (much less than strings, but really not very impactful)" />
   </component>
 </project>
